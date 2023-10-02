@@ -42,6 +42,26 @@ DEBUG
     height: 420px;
  }
 
+ .debug .section-one, .section-three {
+    background-color: #ffffff;
+}
+
+.debug .section-two, .section-four {
+    background-color: #d3d3d3;
+}
+
+.debug .section-container {
+    height: 620px;
+}
+
+.debug .first-content {
+    background-color: #1e90ff;
+}
+
+.debug .second-content {
+    background-color: #ffc0cb;
+}
+
  /* 
 ********
 COMMON
@@ -113,6 +133,23 @@ HEADER
 MAIN
 ********
  */
+
+.section-container {
+    padding: 50px 0;
+}
+
+.first-content {
+    width: 750px;
+}
+
+.second-content {
+    flex-grow: 1;  
+}
+
+.section-two .section-container {
+    flex-direction: row-reverse;
+}
+
 
  /* 
 ********
