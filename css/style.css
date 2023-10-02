@@ -16,8 +16,30 @@ DEBUG
 ********
  */
 
- body {
+ body.debug {
     background: blue;
+ }
+
+ .debug .content-box {
+    border: 1px dashed black;
+ }
+
+ .debug header {
+    background-color: #add8e6;
+ }
+
+ .debug .header-top-container {
+    background-color: #daa520;
+ }
+
+ .debug .header-bottom {
+    background-color: #00008b;
+    border-bottom: 3px solid #bae8ed;
+ }
+
+ .debug .featured-content {
+    background-color: #ee82ee;
+    height: 420px;
  }
 
  /* 
@@ -26,11 +48,65 @@ COMMON
 ********
  */
 
+ body {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .flexbox {
+    display: flex;
+ }
+
+ .layout {
+    width: 1250px;
+    margin: 0 auto;
+ }
+
  /* 
 ********
 HEADER
 ********
  */
+
+
+ .header-top {
+    padding-top: 16px;
+    padding-bottom: 16px;
+ }
+
+ .logo, .login, nav {
+    padding: 8px;
+ }
+
+ .logo, .login {
+    width: 250px;
+ }
+
+ .login {
+    text-align: end;
+ }
+
+ nav ul {
+    list-style: none;
+    justify-content: center;
+    gap: 13px;
+ }
+
+ nav {
+    flex-grow: 1;
+ }
+
+ .featured-content {
+    width: 950px;
+    margin: 0 auto;
+ }
+
+ .header-bottom {
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
 
  /* 
 ********
