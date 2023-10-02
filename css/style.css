@@ -89,6 +89,15 @@ DEBUG
     border: 1px dashed white;
 }
 
+.debug .bottom-banner {
+    background-color: #7fffd4;
+}
+
+.debug .logo-bottom, .debug .footer-button {
+    background-color: #ffb6c1;
+    font-size: 1.2rem;
+}
+
 
 
  /* 
@@ -201,4 +210,18 @@ FOOTER
 
 .vertical-banner {
     flex-grow: 1;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+}
+
+.bottom-banner {
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-bottom, .footer-button {
+    padding: 10px;
 }
