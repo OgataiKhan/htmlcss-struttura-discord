@@ -51,7 +51,7 @@ DEBUG
 }
 
 .debug .section-container {
-    height: 620px;
+    height: 520px;
 }
 
 .debug .first-content {
@@ -60,6 +60,11 @@ DEBUG
 
 .debug .second-content {
     background-color: #ffc0cb;
+}
+
+.debug .section-container-big {
+    background-color: #228b22;
+    height: 937px;
 }
 
  /* 
@@ -134,7 +139,7 @@ MAIN
 ********
  */
 
-.section-container {
+.section {
     padding: 50px 0;
 }
 
