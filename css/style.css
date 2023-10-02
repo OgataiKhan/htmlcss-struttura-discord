@@ -67,6 +67,30 @@ DEBUG
     height: 937px;
 }
 
+.debug .footer-top, .debug .footer-bottom {
+    background-color: #23272a;
+    border-top: 1px solid #b4b4b3;
+    border-bottom: 1px solid #b4b4b3;
+}
+
+.debug .footer-featured {
+    height: 605px;
+}
+
+.debug .footer-first-content {
+    background-color: #f08080;
+}
+
+.debug .footer-second-content {
+    background-color: #20b2aa;
+}
+
+.debug .vertical-banner {
+    border: 1px dashed white;
+}
+
+
+
  /* 
 ********
 COMMON
@@ -161,3 +185,20 @@ MAIN
 FOOTER
 ********
  */
+
+ .footer-top {
+    padding-top: 10px;
+    padding-bottom: 40px;
+ }
+
+.footer-first-content {
+    width: 375px;
+}
+
+.footer-second-content {
+    flex-grow: 1;
+}
+
+.vertical-banner {
+    flex-grow: 1;
+}
